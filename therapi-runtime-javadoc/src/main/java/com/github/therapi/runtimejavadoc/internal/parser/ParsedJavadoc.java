@@ -21,9 +21,9 @@ import com.github.therapi.runtimejavadoc.OtherJavadoc;
 import com.github.therapi.runtimejavadoc.ParamJavadoc;
 import com.github.therapi.runtimejavadoc.SeeAlsoJavadoc;
 import com.github.therapi.runtimejavadoc.ThrowsJavadoc;
-import static com.github.therapi.runtimejavadoc.internal.RuntimeJavadocHelper.unmodifiableDefensiveCopy;
-import java.util.ArrayList;
 import java.util.List;
+
+import static com.github.therapi.runtimejavadoc.internal.RuntimeJavadocHelper.unmodifiableDefensiveCopy;
 
 class ParsedJavadoc {
 

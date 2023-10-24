@@ -16,18 +16,15 @@
 
 package com.github.therapi.runtimejavadoc.internal;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import static java.util.Collections.unmodifiableList;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
+
+import static java.util.Collections.unmodifiableList;
 
 public class RuntimeJavadocHelper {
     public static final String INIT = "<init>";

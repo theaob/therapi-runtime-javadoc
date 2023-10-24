@@ -16,9 +16,7 @@
 
 package com.github.therapi.runtimejavadoc;
 
-import com.github.therapi.runtimejavadoc.internal.MethodSignature;
 import com.github.therapi.runtimejavadoc.internal.RuntimeJavadocHelper;
-import static com.github.therapi.runtimejavadoc.internal.RuntimeJavadocHelper.unmodifiableDefensiveCopy;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.Method;
@@ -29,6 +27,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import static com.github.therapi.runtimejavadoc.internal.RuntimeJavadocHelper.unmodifiableDefensiveCopy;
 
 public class MethodJavadoc extends BaseJavadoc {
     private final List<String> paramTypes;
